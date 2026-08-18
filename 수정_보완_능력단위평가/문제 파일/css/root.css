@@ -1,0 +1,128 @@
+/* ------ 색상 ------ */
+:root {
+  --color-black: #111111;
+  --color-white: #ffffff;
+  --color-ink: #222222;
+  --color-muted: #767676;
+  --color-line: #e5e5e5;
+  --color-line-dark: #33452f;
+  --color-offwhite: #f7f6f3;
+  --color-green-900: #0f2018;
+  --color-green-700: #1b3a29;
+  --color-green-600: #24523a;
+  --color-green-100: #eaf0ea;
+  --color-danger: #c0392b;
+
+  /* 글자 사이즈(고정형) */
+  --font-text-size10: 10px;
+  --font-text-size11: 11px;
+  --font-text-size12: 12px;
+  --font-text-size13: 13px;
+  --font-text-size14: 14px;
+  --font-text-size15: 15px;
+  --font-text-size16: 16px;
+  --font-text-size18: 18px;
+  --font-text-size20: 20px;
+  --font-text-size22: 22px;
+  --font-text-size24: 24px;
+  --font-text-size26: 26px;
+  --font-text-size28: 28px;
+  --font-text-size32: 32px;
+  --font-text-size36: 36px;
+  --font-text-size44: 44px;
+
+  /* 글자 사이즈(적응형) */
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+
+  --font-weight300: 300;
+  --font-weight400: 400;
+  --font-weight500: 500;
+  --font-weight600: 600;
+  --font-weight700: 700;
+  --font-weight800: 800;
+
+  --color-Wh: #fff;
+  --color-def: #222;
+
+  /* 배수(spacing scale) */
+  --num0: 0; --num2: 2px; --num4: 4px; --num6: 6px; --num8: 8px; --num10: 10px;
+  --num12: 12px; --num14: 14px; --num16: 16px; --num18: 18px; --num20: 20px;
+  --num24: 24px; --num28: 28px; --num32: 32px; --num36: 36px; --num40: 40px;
+  --num44: 44px; --num48: 48px; --num52: 52px; --num56: 56px; --num60: 60px;
+  --num64: 64px; --num72: 72px; --num80: 80px; --num88: 88px; --num96: 96px;
+  --num104: 104px; --num120: 120px; --num140: 140px; --num160: 160px;
+
+  /* 그리드 */
+  --auto: auto;
+  --GW-XXS: 375px;
+  --GW-XS: 600px;
+  --GW-S: 768px;
+  --GW-M: 1024px;
+  --GW-L: 1280px;
+  --GW-XL: 1600px;
+  --GWM-S: 320px;
+  --GWM-M: 768px;
+}
+
+/* ------ 지역 디자인 토큰 ------ */
+:root {
+  --main: var(--color-green-700);
+  --main-dark: var(--color-green-900);
+  --main-soft: var(--color-green-100);
+  --ink: var(--color-ink);
+  --muted: var(--color-muted);
+  --line: var(--color-line);
+  --bg-soft: var(--color-offwhite);
+  --container: var(--GW-XL);
+
+  --radius-sm: var(--num4);
+  --radius-md: var(--num12);
+  --radius-lg: var(--num24);
+  --radius-full: 999px;
+
+  --text-XS: var(--font-text-size12);
+  --text-SMALL: var(--font-text-size14);
+  --text-MEDIUM: var(--font-text-size16);
+  --text-LARGE: var(--font-text-size22);
+  --text-XL: var(--font-text-size32);
+  --text-logo: var(--font-text-size26);
+  --text-hero: var(--font-text-size44);
+
+  --textW-XS: var(--font-weight400);
+  --textW-SMALL: var(--font-weight500);
+  --textW-MEDIUM: var(--font-weight600);
+  --textW-LARGE: var(--font-weight700);
+  --textW-logo: var(--font-weight500);
+
+  --color-default-light: var(--color-Wh);
+  --color-default-dark: var(--color-def);
+
+  --padding-XSS: var(--num4) var(--num8);
+  --padding-XS: var(--num10) var(--num20);
+  --padding-SMALL: var(--num12) var(--num24);
+
+  --padding-grid-MEDIUM: var(--num40);
+  --padding-grid-LARGE: var(--num80);
+
+  --icon-FS-XS: var(--font-text-size18);
+  --icon-W-XS: var(--font-weight300);
+  --icon-FS-SMALL: var(--font-text-size22);
+  --icon-W-SMALL: var(--font-weight400);
+  --icon-FS-MEDIUM: var(--font-text-size28);
+  --icon-W-MEDIUM: var(--font-weight500);
+
+  --bd-radius4: var(--num4);
+  --bd-radius8: var(--num8);
+  --bd-radius12: var(--num12);
+
+  --G-center: var(--num0) var(--auto);
+  --grid-1600: var(--GW-XL);
+  --gridM-1024: var(--GWM-M);
+}
