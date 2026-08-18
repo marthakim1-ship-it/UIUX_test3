@@ -102,7 +102,7 @@ button { cursor: pointer; }
 
 /* ------ BEST PICKS ------ */
 .tab-list { margin-bottom: var(--num28); overflow-x: auto; }
-.product-grid { margin-top: var(--num4); }
+.product-grid { display: flex; margin-top: var(--num4); }
 .best-picks-extra { display: none; }
 
 /* ------ COLLECTION ------ */
